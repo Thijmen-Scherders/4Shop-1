@@ -102,6 +102,23 @@ span.collapsing{
 	color: white !important;
 }
 
+
+.product-title{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn.btn-primary{
+	display: block;	
+	margin-top: 20px;
+}
+
+.product-discount{
+	color:red;
+}
+
+
+
 @media (max-width: 576px) {
 	h1{
 		font-size: 8vw;
@@ -140,4 +157,6 @@ span.collapsing{
 	.cart{
 		height: 24px;
 	}
+	
 }
+

@@ -31,6 +31,9 @@
 				<td>
 					{!! $order->payed ? '<span class="badge badge-success">betaald</span>' : '<span class="badge badge-warning">niet betaald</span>' !!}
 				</td>
+				<td>
+					{!! $order->deliverd ? '<span class="badge badge-success">geleverd</span>' : '<span class="badge badge-warning">niet geleverd</span>' !!}
+				</td>
 			</tr>
 		@endforeach
 	</table>
