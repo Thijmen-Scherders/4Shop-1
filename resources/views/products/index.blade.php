@@ -4,6 +4,7 @@
 
 	<div class="products">
 		@foreach($products as $product)
+		
 			<a class="product-row no-link" href="{{ route('products.show', $product) }}">
 				<div>
 					<img src="{{ url($product->image ?? 'img/placeholder.jpg') }}" alt="{{ $product->title }}" class="rounded">
